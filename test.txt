@@ -1,9 +1,23 @@
+进入你的目录
 cd /path/to/your/project
+cd E:/OneDrive/文档/pythonProject/git_test
+
+初始化本地版本库
 git init
+
+链接远程仓库：
 git remote add origin https://github.com/your-username/your-repository.git
+
+新建并切换分支：
 git checkout -b feature-branch
+
+添加文件：
 git add file.txt
+
+提交文件：
 git commit -m "Add file.txt to the repository"
+
+推送文件：
 git push origin feature-branch
 
 
@@ -30,3 +44,5 @@ git branch -d 分支名称
 git push origin :分支名称
 git push origin -d 分支名称
 
+删除库：
+rm -rf .git
