@@ -1,3 +1,15 @@
+cd /path/to/your/project
+git init
+git remote add origin https://github.com/your-username/your-repository.git
+git checkout -b feature-branch
+git add file.txt
+git commit -m "Add file.txt to the repository"
+git push origin feature-branch
+
+
+
 https://github.com/hengdactn/test.git
 git remote add origin https://github.com/hengdactn/test.git
 git checkout -b main
+
+
