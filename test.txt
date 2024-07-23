@@ -1,2 +1,3 @@
 https://github.com/hengdactn/test.git
 git remote add origin https://github.com/hengdactn/test.git
+git checkout -b main
